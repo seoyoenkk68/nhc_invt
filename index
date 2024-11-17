@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=yes">
+<title>새하늘교회 전도축제 온라인 초대장</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- aos -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- 프리텐다드 -->
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
+</head>
+<body>
+<style>
+body {margin:0; padding:0;}
+ul {margin:0; padding:0; list-style:none;}
+p {margin:0;}
+
+.nhc_invt .icon {margin-bottom:clamp(1.2rem, 1.2vw, 3rem);}
+
+.nhc_invt * {font-family:'pretendard'; color:#000; letter-spacing:-0.022em; word-break:keep-all;}
+.nhc_invt {}
+.nhc_invt .inner {max-width:1400px; margin: 0 auto; padding:0 15px;}
+.nhc_invt .intro {text-align:center; padding: clamp(7rem, 7vw, 9rem) 0; background-image:url(https://i.postimg.cc/YCY2LRfj/image.jpg); background-attachment:fixed;}
+.nhc_invt .intro * {color:#fff;}
+.nhc_invt .intro .tit_area .exp {font-size:clamp(1.2rem, 1.4vw, 3rem); font-weight:700; m}
+.nhc_invt .intro .tit_area .tit {font-size:clamp(2.5rem, 2.5vw, 4rem); font-weight:600; margin:clamp(1rem, 1vw, 3rem); font-family:'noto serif kr'; line-height:1.2em;}
+
+.nhc_invt .intro .data_area {font-size:clamp(1rem, 1vw, 2rem); line-height:1.6em; margin-top: clamp(2rem, 3vw, 4rem);}
+.nhc_invt .intro .time {display:flex; gap: 10px; justify-content:center; font-weight:700;}
+.nhc_invt .intro .time span {font-size:.9em; font-weight:300;}
+.nhc_invt .intro .data {font-size:1.4em; font-weight:700; border-bottom: 1px solid #ffffff52;padding-bottom:clamp(.5rem, .5vw, 1rem); margin-bottom:clamp(.5rem, .5vw, 1rem)}
+
+
+.nhc_invt .words  {padding: clamp(5rem, 7vw, 9rem) 0;}
+
+.nhc_invt .words .inner {
+text-align:center;
+}
+
+.nhc_invt .words .inner .eng {
+letter-spacing:.5em;
+text-transform:uppercase;
+font-size:10px;
+}
+.nhc_invt .words .conts {
+white-space:pre-line;
+line-height:1.6em; 
+font-size:clamp(1rem, 1.2vw, 3rem);
+margin:clamp(1rem, 1vw, 2rem);
+}
+
+.nhc_invt .words .conts .sign {font-size:.9em; margin-top:30px;}
+.nhc_invt .words .conts .sign span {font-size:.8em;}
+
+.nhc_invt .addr {padding: clamp(5rem, 7vw, 9rem) 0; text-align:center; background:#f9f9f9;}
+.nhc_invt .addr i {opacity:.3; padding-right:3px; }
+.nhc_invt .addr .ws_time {margin-bottom:clamp(1rem, 1vw, 2rem);}
+.nhc_invt .addr .ws_time .subj {    font-size: clamp(1.1rem, 1.1vw, 3rem);
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  width: fit-content;
+  /* background: linear-gradient(45deg, #1dafa1, #0f2080); */
+  /* color: #fff; */
+  padding: clamp(.3rem, .3vw, 1rem) clamp(1.5rem, 1.5vw, 3rem);
+  border-radius: 50px;
+  margin-bottom: 20px;
+  border: 1px solid #000;}
+.nhc_invt .addr .ws_time .conts {display:flex; justify-content:center; gap: 10px; font-size:clamp(1.2rem, 1.2vw, 2rem); font-weight:700;}
+.nhc_invt .addr .ws_time .conts span {font-size:.8em; font-weight:normal;}
+.nhc_invt .addr .map {width:100%;}
+.nhc_invt .addr .map iframe {width:100%; height:clamp(16rem, 20vw, 22rem);}
+.nhc_invt .addr .addr_txt {line-height:2rem; margin-top:20px;}
+.nhc_invt .addr .addr_txt .c2, .nhc_invt .addr .addr_txt .c3  {font-size:clamp(1.1rem, 1.1vw, 2rem);}
+.nhc_invt .addr .addr_txt .c3 {font-weight:800;}
+
+.nhc_invt .form {background:#000; padding: clamp(5rem, 5vw, 6rem) 15px;}
+.nhc_invt .form .box1:first-child {margin-bottom:40px;}
+.nhc_invt .form * {color:#fff; }
+.nhc_invt .form .subj {font-family:'noto serif kr'; font-size:clamp(1.3rem, 1.5vw, 3rem) ;margin-bottom:20px;}
+.nhc_invt .form label {display:flex;margin-bottom:5px; align-items:center;}
+.nhc_invt .form label input {
+background:transparent;
+border-radius:60px;
+padding: 5px;
+}
+.nhc_invt .form label .tit {width:100px; }
+.nhc_invt .form button { color:#fff; border:1px solid #ffffffa1; background:#000; display:block; width:100%; padding: 10px; margin-top:20px; border-radius:40px;}
+
+
+@media (max-width:767px) {
+.nhc_invt .intro {
+    background-attachment:unset;
+  background-size:cover;
+  background-position:100% 100%;
+}
+}
+</style>
+
+
+<div class="nhc_invt">
+<div class="sect intro">
+  <div class="inner">
+    <div class="tit_area">
+      <div class="icon" data-aos="fade-down" data-aos-duration="1200"><i class="fa-solid fa-star-of-life"></i></div>
+      <div class="exp" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="200">새하늘 전도축제</div>
+      <div class="tit" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="300">사랑하는 당신을 초대합니다!</div>
+    </div>
+    <div class="data_area" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="300">
+      <div class="data">2024. 12. 1 (주일)</div>
+      <div class="time">
+        <div class="div"><span>오전</span> 09:00, 11:00</div>
+        <div class="div"><span>오후</span> 02:00</div>
+      </div>
+      <div class="loc">새하늘교회 벧엘성전</div>
+    </div>
+  </div>
+</div>
+<div class="sect words">
+  <div class="inner">
+    <div class="icon" data-aos="fade-down" data-aos-duration="1200"><i class="fa-solid fa-star-of-life"></i></div>
+    <div class="eng" data-aos="fade-down" data-aos-duration="1200">Invitation Message</div>
+    <div class="conts" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="300">
+      여러분을 가장 행복한 자리에 초대합니다.
+      당신은 사랑받기 위해 태어난 소중한 분이십니다.
+      하나님은 당신을 사랑하시며
+      당신이 참 행복하기를 원하십니다.
+      하나님만이 채울 수 있는 가슴 깊은 곳
+      그 빈 공간을 위해 귀중한 시간을 마련했습니다.
+      바쁘시더라도 꼭 오셔서 세상에 없는 기쁨과 평안을
+      가득 누리시기를 소망합니다.
+      <div class="sign"><span>담임목사</span> 신 재 현</div> </div>
+  </div>
+</div>
+<div class="sect addr" data-aos="fade-down" data-aos-duration="1200">
+  <div class="inner">
+    <div class="icon" data-aos="fade-down" data-aos-duration="1200"><i class="fa-solid fa-star-of-life"></i></div>
+    <div class="ws_time">
+      <div class="subj">예배시간</div>
+      <div class="conts">
+        <div class="c1"><span>1부</span> 오전 9시</div>
+        <div class="c2"><span>2부</span> 오전 11시</div>
+      </div>
+    </div>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3214.3876469790125!2d127.40083037681211!3d36.32715377238583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565494a7cd51c05%3A0xc4404aea5822803b!2z64yA7KCE6rSR7Jet7IucIOykkeq1rCDsmKTrpZjroZwgNzY!5e0!3m2!1sko!2skr!4v1731794033100!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="addr_txt">
+      <div class="c1">[기독교 대한감리회  새하늘교회]</div>
+      <div class="c2"><i class="fa-solid fa-location-dot"></i> 대전광역시 중구 오류로 76(오류동)</div>
+      <a href="tel:042-527-6110" class="c3"><i class="fa-solid fa-phone"></i> 042-527-6110</a>
+    </div>
+  </div>
+</div>
+<div class="sect form">
+
+  <form
+        action="https://formspree.io/f/xgvezwzo"
+        method="POST"
+        >
+    <div class="box1">
+       <div class="icon" data-aos="fade-down" data-aos-duration="1200"><i class="fa-solid fa-star-of-life"></i></div>
+      <div class="subj">초청 받으신 분</div>
+      <label>
+        <div class="tit">성명</div>
+        <input type="text" name="c1">
+      </label>
+      <label>
+        <div class="tit">생년월일</div>
+        <input type="text" name="c2">
+      </label>
+      <label>
+        <div class="tit">연락처</div>
+        <input type="text" name="c3">
+      </label>
+      <label>
+        <div class="tit">주소</div>
+        <input type="text" name="c4">
+      </label>
+    </div>
+    <div class="box1">
+       <div class="icon" data-aos="fade-down" data-aos-duration="1200"><i class="fa-solid fa-star-of-life"></i></div>
+      <div class="subj">초청 하신 분</div>
+      <label>
+        <div class="tit">선교회</div>
+        <input type="text" name="c5">
+      </label>
+      <label>
+        <div class="tit">직분</div>
+        <input type="text" name="c6">
+      </label>
+      <label>
+        <div class="tit">성명</div>
+        <input type="text" name="c7">
+      </label>
+
+    </div>
+    <!-- your other form fields go here -->
+    <button type="submit">보내기</button>
+  </form>
+</div>
+</div>
+
+</body>
+</html>
